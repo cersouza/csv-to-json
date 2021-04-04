@@ -1,0 +1,16 @@
+{
+  "name": "csv-live-server",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "repository": "https://github.com/cersouza/csv-live-server.git",
+  "author": "Caio <caio.e.souza@kroton.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "lowdb": "^1.0.0"
+  }
+}
